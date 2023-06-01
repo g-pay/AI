@@ -12,12 +12,12 @@ def bipartite(graph, node, visited, color, c):
     return True
 
 # canot be colored 
-edges = [[1, 2], [2, 4], [4, 3], [3, 1], [2, 5], [4, 5]]
-n = 5
+#edges = [[1, 2], [2, 4], [4, 3], [3, 1], [2, 5], [4, 5]]
+#n = 5
 
 # can be colored 
-# edges = [[1, 2], [2, 3], [3, 6], [6, 5], [5, 4], [1, 4]]
-# n = 6
+ edges = [[1, 2], [2, 3], [3, 6], [6, 5], [5, 4], [1, 4]]
+ n = 6
 
 
 graph = {}
